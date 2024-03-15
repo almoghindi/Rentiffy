@@ -1,0 +1,175 @@
+.section1,
+.section5,
+.section8,
+.section9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.search-section1 {
+  display: block;
+  max-width: 100%;
+  width: 610px;
+  text-align: right;
+  /* padding: 20px; */
+  order: 2;
+}
+
+.search-section1 h1 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: rubik, sans-serif;
+  line-height: 59.25px;
+}
+
+.search-section1 p {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: rubik, sans-serif;
+  line-height: 28.44px;
+}
+
+.img-section1 {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.styled-textfield {
+  width: 100%;
+}
+
+.section2-card {
+  width: 90%;
+}
+.logo-section5 {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.details-section5 {
+  display: block;
+  max-width: 610px;
+  text-align: right;
+  margin-top: 40px;
+}
+
+.section7-box {
+  background-color: white;
+  height: 455px;
+  width: 40%;
+  border-radius: 16px;
+}
+
+.details-section8,
+.details-section9 {
+  display: block;
+  text-align: right;
+  margin-top: 40px;
+  max-width: 710px;
+}
+
+@media (max-width: 1200px) {
+  .section1,
+  .section5,
+  .section8,
+  .section9 {
+    display: block;
+  }
+
+  .search-section1,
+  .details-section5,
+  .details-section8,
+  .details-section9 {
+    margin: auto;
+    text-align: center; /* Center the text when screen is smaller */
+  }
+
+  .search-section1 h1 {
+    font-size: 32px;
+  }
+
+  .search-section1 p {
+    font-size: 18px;
+  }
+
+  .styled-textfield {
+    width: 90%;
+  }
+
+  .grid-container {
+    display: block;
+  }
+
+  .section2 h1 {
+    font-size: 28px;
+  }
+
+  .section2-card {
+    display: flex;
+    text-align: right;
+    width: 100%;
+  }
+  .img-card-section2 {
+    width: 30%;
+  }
+  .card-content-section2 {
+    width: 70%;
+  }
+
+  .box3 {
+    background: #f2f2f2;
+  }
+  .section4-carousel {
+    margin-top: 520px;
+  }
+  .section5 {
+    margin-top: 200px;
+  }
+
+  .logo-section5 {
+    margin-right: 20px;
+    width: 90%;
+  }
+  .details-section5 {
+    width: 90%;
+    text-align: center;
+  }
+  .section7-box {
+    width: 95%;
+  }
+  .details-section8,
+  .details-section9 {
+    text-align: center;
+    width: 96%;
+  }
+  .details-section9 {
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  .wave-section3 {
+    margin-top: 120px;
+  }
+
+  .box3 {
+    background: #f2f2f2;
+  }
+  .section4-carousel {
+    margin-top: 220px;
+    margin-bottom: 720px;
+  }
+
+  .section5 {
+    margin-top: 400px;
+  }
+}

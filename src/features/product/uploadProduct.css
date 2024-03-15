@@ -1,0 +1,36 @@
+.container-upload {
+  width: 50%;
+  margin-top: 50px;
+}
+
+input[type="file"] {
+  display: block;
+  color: transparent;
+  font-style: oblique;
+}
+input[type="file"]::file-selector-button {
+  color: white;
+  display: block;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Rubik;
+  background-color: #0cc397;
+  border-radius: 100px;
+  border: none;
+  margin: 5px;
+  width: 159px;
+  height: 36px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1200px) {
+  .container-upload {
+    width: 90%;
+  }
+  input[type="file"]::file-selector-button {
+    width: 79px;
+    font-size: 12px;
+
+  }
+}
