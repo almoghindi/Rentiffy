@@ -1962,7 +1962,7 @@ const Search = () => {
             </Card>
           </div>
 
-          <Wrapper apiKey={"AIzaSyAr2huAaENhwhPCZInY1C_SY8M9Hx31Bm4"}>
+          <Wrapper apiKey={process.env.GOOGLE_API_KEY}>
             <Map
               zoom={10}
               center={{
